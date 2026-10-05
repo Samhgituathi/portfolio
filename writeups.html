@@ -108,8 +108,6 @@
 
         </div>
     </div>
-
-
     <!-- Blue TryHackMe -->
 <div class="card shadow-lg mb-4">
     <div class="card-body">
@@ -152,6 +150,67 @@
 
     </div>
 </div>
+<!-- Hack The Box — Cohort -->
+
+<div class="card shadow-lg mb-4">
+    <div class="card-body">
+
+    <h3>Hack The Box — Cohort</h3>
+
+    <p>
+        This penetration testing writeup documents the security assessment
+        of the Hack The Box Cohort machine. The assessment covers
+        reconnaissance, web enumeration, exploitation of a Marimo
+        pre-authentication remote code execution vulnerability, Linux
+        privilege escalation through PackageKit, and post-exploitation
+        analysis.
+    </p>
+
+    <p>
+        The attack chain resulted in an initial shell as the
+        <strong>marimo</strong> user before exploiting a vulnerable
+        PackageKit installation to obtain <strong>root-level access</strong>.
+    </p>
+
+    <p><strong>Topics Covered:</strong></p>
+
+    <ul>
+        <li>Network Reconnaissance</li>
+        <li>Nmap Service Enumeration</li>
+        <li>Web Application Enumeration</li>
+        <li>Gobuster Directory Enumeration</li>
+        <li>Virtual Host / Subdomain Enumeration</li>
+        <li>Marimo Application Analysis</li>
+        <li>CVE-2026-39987 — Marimo Pre-Authentication RCE</li>
+        <li>Reverse Shell</li>
+        <li>Linux Local Enumeration</li>
+        <li>PackageKit 1.2.8 Analysis</li>
+        <li>CVE-2026-41651 — PackageKit TOCTOU Privilege Escalation</li>
+        <li>D-Bus Security Analysis</li>
+        <li>SUID Privilege Escalation</li>
+        <li>Root Shell Access</li>
+        <li>Server-Side Request Forgery (SSRF) Analysis</li>
+        <li>Vulnerability Analysis &amp; Remediation</li>
+    </ul>
+
+    <a href="writeups/Cohort_Report.pdf"
+       class="btn btn-primary"
+       target="_blank">
+        📄 View PDF
+    </a>
+
+    <a href="writeups/Cohort_Report.pdf"
+       class="btn btn-success"
+       download>
+        ⬇ Download PDF
+    </a>
+
+</div>
+
+</div>
+
+
 </section>
+
 </body>
 </html>
